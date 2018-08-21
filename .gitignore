@@ -1,0 +1,16 @@
+vendor/
+**/*.log
+**/*.sqlite
+.idea/
+bin/
+tmp/
+node_modules/
+.sass-cache/
+*-packr.go
+public/assets/
+gopher_search
+.vscode/
+.grifter/
+.terraform
+terraform.tfstate
+terraform.tfstate.backup

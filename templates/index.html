@@ -1,0 +1,31 @@
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Gopher Search</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <form class="form-inline my-2 my-lg-0">
+      <input name="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</header>
+
+<div class="row" style="padding: 2rem">
+  <%= for (gopher) in listGophers { %>
+    <div class="card text-center" style="margin-bottom: 2rem; width: 20rem; margin-left: auto; margin-right: auto;">
+      <div style="height: 15rem; overflow: hidden;">
+        <img class="card-img-top" src="<%= gopher.Location %>" alt="Card image cap">
+      </div>
+       <div class="card-body">
+         <h4 class="card-title"><%= gopher.Title %></h4>
+      </div>
+   </div>
+  <% } %>
+</div>
+
+<div class="foot"> 
+  <span> Powered by <a href="http://gobuffalo.io/">gobuffalo.io</a></span></br>
+  <span> Images by <a href="https://github.com/ashleymcnamara/gophers">The amazing Ashley McNamara</a></span>
+</div>
