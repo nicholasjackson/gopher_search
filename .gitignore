@@ -8,9 +8,10 @@ node_modules/
 .sass-cache/
 *-packr.go
 public/assets/
-gopher_search
+gophersearch
 .vscode/
 .grifter/
 .terraform
 terraform.tfstate
 terraform.tfstate.backup
+dist

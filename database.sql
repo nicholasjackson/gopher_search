@@ -16,6 +16,9 @@ INSERT INTO gophers (title, location,keywords)
 VALUES ('7TH BIRTHDAY','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/7TH_BIRTHDAY.png','7th birthday');
 
 INSERT INTO gophers (title, location,keywords)
+VALUES ('APPLE GOPHER','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/APPLE%20GOPHER.png','apple gopher');
+
+INSERT INTO gophers (title, location,keywords)
 VALUES ('ASHLEY STEVE','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/ASHLEY_STEVE.png','ashley steve');
 
 INSERT INTO gophers (title, location,keywords)
@@ -86,6 +89,12 @@ VALUES ('GOOGLE','https://raw.githubusercontent.com/ashleymcnamara/gophers/maste
 
 INSERT INTO gophers (title, location,keywords)
 VALUES ('GOPHER ACADEMY','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GOPHER%20ACADEMY.png','gopher academy');
+
+INSERT INTO gophers (title, location,keywords)
+VALUES ('GOPHER RIDING REX','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GOPHER%20RIDING%20REX.png','gopher riding rex');
+
+INSERT INTO gophers (title, location,keywords)
+VALUES ('GOPHER WEBPACK','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GOPHER%20WEBPACK.png','gopher webpack');
 
 INSERT INTO gophers (title, location,keywords)
 VALUES ('GOPHERCON','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GOPHERCON.png','gophercon');
@@ -253,7 +262,13 @@ INSERT INTO gophers (title, location,keywords)
 VALUES ('This is Fine Gopher','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/This_is_Fine_Gopher.png','this is fine gopher');
 
 INSERT INTO gophers (title, location,keywords)
+VALUES ('UK GOPHER','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/UK%20GOPHER.png','uk gopher');
+
+INSERT INTO gophers (title, location,keywords)
 VALUES ('Unicorn Gopher','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/Unicorn_Gopher.png','unicorn gopher');
+
+INSERT INTO gophers (title, location,keywords)
+VALUES ('VS CODE GOPHER','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/VS%20CODE%20GOPHER.png','vs code gopher');
 
 INSERT INTO gophers (title, location,keywords)
 VALUES ('WOMEN WHO GO','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/WOMEN_WHO_GO.png','women who go');
@@ -269,6 +284,9 @@ VALUES ('cncf','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/
 
 INSERT INTO gophers (title, location,keywords)
 VALUES ('gopher snacks','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/gopher_snacks.png','gopher snacks');
+
+INSERT INTO gophers (title, location,keywords)
+VALUES ('gopher unicorn','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/gopher_unicorn.png','gopher unicorn');
 
 INSERT INTO gophers (title, location,keywords)
 VALUES ('gopivotal','https://raw.githubusercontent.com/ashleymcnamara/gophers/master/gopivotal.png','gopivotal');

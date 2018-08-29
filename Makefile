@@ -10,7 +10,10 @@ import_sql: process_sql
 	psql gophersearch < ./database.sql
 
 build:
-	CGO_ENABLED=0 GOOS=linux buffalo build
+	CGO_ENABLED=0 GOOS=linux buffalo build --static -o gophersearch
+
+release: build
+	goreleaser
 
 run:
 	buffalo dev
