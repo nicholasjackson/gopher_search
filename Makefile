@@ -9,8 +9,8 @@ import_sql: process_sql
 	echo "psql -U postgres <<< \"CREATE DATABASE gophersearch;\""
 	psql gophersearch < ./database.sql
 
-build:
-	buffalo build -o gophersearch
+build_linux:
+	GOOS=linux buffalo build -o ./dist/linux_amd64/gophersearch
 
 release: build
 	goreleaser

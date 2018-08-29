@@ -11,7 +11,7 @@ builds:
   goarch:
     - amd64
   hooks:
-    post: buffalo build -o ./dist/linux_amd64/gophersearch
+    post: make build_linux 
 
 changelog:
   sort: asc
